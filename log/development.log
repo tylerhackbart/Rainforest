@@ -1,0 +1,1936 @@
+  [1m[36m (1.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 15:35:06 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 55ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-18 19:30:07 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.7ms)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 12:40:16 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 27ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 12:40:20 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 12:40:21 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2014-02-24 12:40:21 -0500
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.0ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (42.5ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2014-02-24 12:40:26 -0500
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (26.5ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2014-02-24 12:40:26 -0500
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (36.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 12:40:27 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2014-02-24 12:44:27 -0500
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (48.6ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2014-02-24 12:45:38 -0500
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (25.6ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2014-02-24 12:45:38 -0500
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (36.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 12:45:39 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 12:45:39 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 18:17:31 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (1.3ms)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20140225031536)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_digest" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140225031536"]]
+  [1m[36m (4.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 22:27:06 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 52ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 22:27:11 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 22:27:11 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/root" for 127.0.0.1 at 2014-02-24 22:27:12 -0500
+
+ActionController::RoutingError (No route matches [GET] "/root"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.7ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (45.0ms)
+
+
+Started GET "/rainforest" for 127.0.0.1 at 2014-02-24 22:27:14 -0500
+
+ActionController::RoutingError (No route matches [GET] "/rainforest"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.8ms)
+
+
+Started GET "/rainforest" for 127.0.0.1 at 2014-02-24 22:27:17 -0500
+
+ActionController::RoutingError (No route matches [GET] "/rainforest"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (31.8ms)
+
+
+Started GET "/rainforest" for 127.0.0.1 at 2014-02-24 22:27:17 -0500
+
+ActionController::RoutingError (No route matches [GET] "/rainforest"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (53.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 22:27:19 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2014-02-24 22:27:20 -0500
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (31.4ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2014-02-24 22:27:23 -0500
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.3ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (31.4ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2014-02-24 22:27:23 -0500
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (33.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 22:27:24 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rainforest" for 127.0.0.1 at 2014-02-24 22:27:25 -0500
+
+ActionController::RoutingError (No route matches [GET] "/rainforest"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (30.5ms)
+
+
+Started GET "/rainforest" for 127.0.0.1 at 2014-02-24 22:28:22 -0500
+
+ActionController::RoutingError (No route matches [GET] "/rainforest"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (30.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 22:28:23 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-02-24 22:28:24 -0500
+
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.8ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2014-02-24 22:28:26 -0500
+
+ActionController::RoutingError (No route matches [GET] "/application"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.4ms)
+
+
+Started GET "/application/new" for 127.0.0.1 at 2014-02-24 22:28:30 -0500
+
+ActionController::RoutingError (No route matches [GET] "/application/new"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (54.7ms)
+
+
+Started GET "/application/new" for 127.0.0.1 at 2014-02-24 22:28:43 -0500
+
+ActionController::RoutingError (No route matches [GET] "/application/new"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (35.6ms)
+
+
+Started GET "/application/new" for 127.0.0.1 at 2014-02-24 22:28:43 -0500
+
+ActionController::RoutingError (No route matches [GET] "/application/new"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.3ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2014-02-24 22:28:44 -0500
+
+ActionController::RoutingError (No route matches [GET] "/application"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (26.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-02-24 22:28:46 -0500
+
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.2ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (40.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 22:28:46 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-02-24 22:28:51 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 974ms (Views: 961.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-24 22:28:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-24 22:28:52 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-02-24 22:28:52 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-02-24 22:28:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-24 22:28:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-24 22:28:52 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-02-24 22:28:53 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-24 22:28:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-24 22:28:53 -0500
+
+
+Started GET "/application/new" for 127.0.0.1 at 2014-02-24 22:30:22 -0500
+
+ActionController::RoutingError (No route matches [GET] "/application/new"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.6ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (49.5ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2014-02-24 22:30:23 -0500
+
+ActionController::RoutingError (No route matches [GET] "/application"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (32.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-02-24 22:30:24 -0500
+
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (38.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 22:30:24 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-02-24 22:30:25 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-02-24 22:30:25 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-24 22:30:25 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:25 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-02-24 22:30:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:25 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:25 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-02-24 22:30:34 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-02-24 22:30:34 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-24 22:30:34 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-02-24 22:30:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:34 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-02-24 22:30:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:34 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:34 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:34 -0500
+
+
+Started GET "/users/create" for 127.0.0.1 at 2014-02-24 22:30:36 -0500
+Processing by UsersController#create as HTML
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param not found: user):
+  app/controllers/users_controller.rb:17:in `user_params'
+  app/controllers/users_controller.rb:7:in `create'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.7ms)
+
+
+Started GET "/users/create" for 127.0.0.1 at 2014-02-24 22:30:40 -0500
+Processing by UsersController#create as HTML
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param not found: user):
+  app/controllers/users_controller.rb:17:in `user_params'
+  app/controllers/users_controller.rb:7:in `create'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (36.3ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.4ms)
+
+
+Started GET "/users/create" for 127.0.0.1 at 2014-02-24 22:30:40 -0500
+Processing by UsersController#create as HTML
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param not found: user):
+  app/controllers/users_controller.rb:17:in `user_params'
+  app/controllers/users_controller.rb:7:in `create'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-02-24 22:30:41 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-02-24 22:30:41 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-24 22:30:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:41 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-02-24 22:30:41 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:41 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:41 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-24 22:30:41 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-02-24 22:31:13 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 7.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-24 22:31:13 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-02-24 22:31:13 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-02-24 22:31:13 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-02-24 22:31:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-24 22:31:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-24 22:31:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-24 22:31:13 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-24 22:31:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-24 22:31:13 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-02-25 19:50:54 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 54ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-02-25 19:50:54 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-02-25 19:50:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-25 19:50:54 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-25 19:50:54 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-02-25 19:50:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-25 19:50:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-25 19:50:54 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-25 19:50:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-25 19:50:54 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-28 19:34:34 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 64ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-28 19:34:42 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2014-02-28 19:34:46 -0500
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.7ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (46.2ms)
+
+
+Started GET "/rainforest" for 127.0.0.1 at 2014-02-28 19:34:52 -0500
+
+ActionController::RoutingError (No route matches [GET] "/rainforest"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.8ms)
+
+
+Started GET "/rainforest/new" for 127.0.0.1 at 2014-02-28 19:34:56 -0500
+
+ActionController::RoutingError (No route matches [GET] "/rainforest/new"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (33.2ms)
+
+
+Started GET "/rainforest/user/new" for 127.0.0.1 at 2014-02-28 19:35:01 -0500
+
+ActionController::RoutingError (No route matches [GET] "/rainforest/user/new"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (26.3ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (50.8ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-02-28 19:35:33 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 136ms (Views: 105.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-28 19:35:33 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-02-28 19:35:33 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-02-28 19:35:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 19:35:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 19:35:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 19:35:34 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-02-28 19:35:34 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-28 19:35:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 19:35:34 -0500
+
+
+Started POST "/users" for 127.0.0.1 at 2014-02-28 19:35:50 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nZz7s2NHLFZ03T76PWqY8aj8D3hGAalyQXC4b3EK99o=", "user"=>{"email"=>"lol@lol.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (8.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "password_digest", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 01 Mar 2014 00:35:50 UTC +00:00], ["email", "lol@lol.com"], ["password_digest", "$2a$10$wbNSunPYTexttSchNu1.T.tPHluHlCtqXE6VnU/r8kWBB2TVQZ5su"], ["updated_at", Sat, 01 Mar 2014 00:35:50 UTC +00:00]]
+  [1m[35m (5.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/products
+Completed 302 Found in 108ms (ActiveRecord: 13.8ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-02-28 19:35:50 -0500
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-02-28 19:47:41 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nZz7s2NHLFZ03T76PWqY8aj8D3hGAalyQXC4b3EK99o=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 269ms (Views: 254.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-02-28 19:47:42 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-02-28 19:47:42 -0500
+
+
+Started GET "/users" for 127.0.0.1 at 2014-02-28 19:47:47 -0500
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (33.8ms)
+
+
+Started GET "/products/index" for 127.0.0.1 at 2014-02-28 19:48:26 -0500
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-02-28 19:48:36 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-02-28 19:48:36 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-02-28 19:48:36 -0500
+
+
+Started POST "/users" for 127.0.0.1 at 2014-02-28 19:48:47 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nZz7s2NHLFZ03T76PWqY8aj8D3hGAalyQXC4b3EK99o=", "user"=>{"email"=>"ha@ha.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (2.4ms)[0m  INSERT INTO "users" ("created_at", "email", "password_digest", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Sat, 01 Mar 2014 00:48:47 UTC +00:00], ["email", "ha@ha.com"], ["password_digest", "$2a$10$x5faFHKnmYyun1JKxiBlPO1U488I9js.f3jsQlaGVjn1zi6USLabe"], ["updated_at", Sat, 01 Mar 2014 00:48:47 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/products
+Completed 302 Found in 98ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-02-28 19:48:47 -0500
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-02-28 19:48:47 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-02-28 19:48:47 -0500
+
+
+Started GET "/products" for 127.0.0.1 at 2014-02-28 19:49:35 -0500
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-28 19:49:35 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-02-28 19:49:35 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-02-28 19:49:35 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-02-28 19:49:35 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:35 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:35 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:35 -0500
+
+
+Started GET "/products" for 127.0.0.1 at 2014-02-28 19:49:42 -0500
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-02-28 19:49:42 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-02-28 19:49:42 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:42 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-28 19:49:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:42 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-02-28 19:49:42 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:42 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:42 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:42 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:42 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:42 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-02-28 19:49:48 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-28 19:49:48 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-02-28 19:49:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:48 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-02-28 19:49:48 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-02-28 19:49:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:48 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:48 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:48 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 19:49:48 -0500
+
+
+Started GET "/users/" for 127.0.0.1 at 2014-02-28 19:49:55 -0500
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.3ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (39.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateReviews (20140301013748)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "reviews" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "comment" text, "product_id" integer, "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140301013748"]]
+  [1m[36m (3.9ms)[0m  [1mcommit transaction[0m
+Migrating to AddNameToUser (20140301021200)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD "name" varchar(255)[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140301021200"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-28 21:18:39 -0500
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-28 21:18:40 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-28 21:18:43 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-28 21:18:43 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/create" for 127.0.0.1 at 2014-02-28 21:18:43 -0500
+
+ActionController::RoutingError (No route matches [GET] "/users/create"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (38.6ms)
+
+
+Started GET "/users/create" for 127.0.0.1 at 2014-02-28 21:18:53 -0500
+
+ActionController::RoutingError (No route matches [GET] "/users/create"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.7ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (41.1ms)
+
+
+Started GET "/users/create" for 127.0.0.1 at 2014-02-28 21:18:53 -0500
+
+ActionController::RoutingError (No route matches [GET] "/users/create"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (29.6ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-02-28 21:18:58 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 224ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007faa63566ef8>:0x007faa6356f490>):
+     8: </head>
+     9: 
+    10:   <div class="field">
+    11:     <%= f.label :name %><br/>
+    12:     <%= f.text_field :name %>
+    13:   </div>
+    14: 
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__14041846391995478_70184893955800'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.5ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-02-28 21:19:58 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-28 21:19:58 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-02-28 21:19:58 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-02-28 21:19:58 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-02-28 21:19:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 21:19:58 -0500
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-02-28 21:19:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 21:19:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 21:19:58 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-02-28 21:19:58 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-02-28 21:19:58 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-02-28 21:19:58 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-28 21:19:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 21:19:58 -0500
+
+
+Started GET "/users/" for 127.0.0.1 at 2014-02-28 21:21:49 -0500
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/tylerhackbart/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (34.2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-02-28 21:22:24 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-02-28 21:22:24 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-28 21:22:24 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-02-28 21:22:24 -0500
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-02-28 21:22:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 21:22:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 21:22:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 21:22:24 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-02-28 21:22:24 -0500
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-02-28 21:22:24 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-02-28 21:22:24 -0500
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-02-28 21:22:24 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-28 21:22:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 21:22:24 -0500
